@@ -24,6 +24,75 @@
    <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body ng-app="winning">
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+          </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <div class="col-md-3">
+      <md-sidenav
+          class="md-sidenav-left"
+          md-component-id="left"
+          md-is-locked-open="$mdMedia('gt-md')"
+          md-whiteframe="4">
+        <md-toolbar class="md-theme-indigo">
+          <h1 class="md-toolbar-tools">winninglabs</h1>
+        </md-toolbar>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/dashboard" class="md-primary">
+            Dashboard
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/Appointment" class="md-primary">
+            Appointment
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/people" class="md-primary">
+            People
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/option" class="md-primary">
+            Option
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/option2" class="md-primary">
+            Option2
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/manage Settings" class="md-primary">
+            Manage Settings
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl">
+             <!-- <md-icon class="left_icon"><i class="material-icons color_blue">desktop_mac</i></md-icon> -->
+          <md-button ng-href="#/communication" class="md-primary">
+            Communication
+          </md-button>
+        </md-content>
+      </md-sidenav>
+      </div>
     <div ng-view></div>
   </body>
 </html>
