@@ -11,6 +11,16 @@ background-color: #2C3E50;
 #para{
   margin: 13px 10px;
 }
+.navbar-brand>img {
+  display: block;
+  margin-top: -0.5em;
+}
+.main-circle{
+  color: #44CCF6;
+}
+.md-toolbar-tools{
+  background-color: #2C3E50;
+}
 .fa-check-circle:before {
   margin-left: 6em;
 }
