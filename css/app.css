@@ -21,6 +21,14 @@ background-color: #2C3E50;
 .md-toolbar-tools{
   background-color: #2C3E50;
 }
+.btn-cons {
+  margin-right: 5px;
+  min-width: 120px;
+  margin-bottom: 8px;
+  margin-top: 400px;
+  position: absolute;
+  margin-left: 375px;
+}
 .fa-check-circle:before {
   margin-left: 6em;
 }
