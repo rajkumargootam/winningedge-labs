@@ -61,7 +61,7 @@
 </nav>
     </header>
     <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 col-xs-3">
       <md-sidenav
           class="md-sidenav-left"
           md-component-id="left"
@@ -111,6 +111,27 @@
             Communication
           </md-button>
         </md-content>
+        <md-content layout-padding ng-controller="AppCtrl" id="sidenav">
+          <md-button ng-href="#/communication" class="md-primary"><md-icon class="left_icon"><i class="fa fa-users"></i></md-icon>
+            Appointment
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl" id="sidenav">
+          <md-button ng-href="#/communication" class="md-primary"><md-icon class="left_icon"><i class="fa fa-users"></i></md-icon>
+            Settings 2
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl" id="sidenav">
+          <md-button ng-href="#/communication" class="md-primary"><md-icon class="left_icon"><i class="fa fa-users"></i></md-icon>
+            Backup
+          </md-button>
+        </md-content>
+        <md-content layout-padding ng-controller="AppCtrl" id="sidenav">
+          <md-button ng-href="#/communication" class="md-primary"><md-icon class="left_icon"><i class="fa fa-users"></i></md-icon>
+            Help Desk
+          </md-button>
+        </md-content>
+
       </md-sidenav>
     </div>
    <ui-view></ui-view>

@@ -1,6 +1,19 @@
 #sidenav{
 background-color: #2C3E50;
 }
+#head{
+  margin: 1em 0;
+}
+#check-box{
+  margin-bottom: 1em;
+  border-color: #E74C3C;
+}
+#para{
+  margin: 13px 10px;
+}
+.fa-check-circle:before {
+  margin-left: 6em;
+}
 .boxWithHeight {
   box-sizing: border-box;
   height: 50%;
